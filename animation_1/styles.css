@@ -1,0 +1,24 @@
+div {
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    animation: color_change 4s infinite;
+}
+
+@keyframes color_change {
+    0% {
+        background-color: red;
+        width: 500px;
+        height: 500px;
+        border-radius: 0%;
+    }
+    100% {
+        background-color: green;
+        border-radius: 100%;
+        margin-top: 250px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
