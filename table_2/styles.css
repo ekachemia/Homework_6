@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'PTSans';
-    src: url(Fonts/PTSans-Regular.eot);
-    src: url(Fonts/PTSans-Regular.ttf) format("truetype"),
+    src: url(../Fonts/PTSans-Regular.eot);
+    src: url(../Fonts/PTSans-Regular.ttf) format("truetype"),
         url(../Fonts/PTSans-Regular.woff) format("woff"),
         url(../Fonts/PTSans-Regular.woff2) format("woff2");
 }
