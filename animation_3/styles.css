@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'PTSans';
+    src: url(../Fonts/PTSans-Regular.eot);
+    src: url(../Fonts/PTSans-Regular.ttf) format("truetype"),
+        url(../Fonts/PTSans-Regular.woff) format("woff"),
+        url(../Fonts/PTSans-Regular.woff2) format("woff2");
+}
+
+body {
+    background-color: gray;
+    padding: 15% 0% 0% 20%;
+    font-size: 150px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'PTSans';
+}
+
+span:nth-child(8) {
+    animation: color_change 1s infinite;
+    animation-timing-function: ease-in;
+}
+
+span:nth-child(7) {
+
+    animation: color_change 1s infinite;
+    animation-delay: 0.125s;
+    animation-timing-function: ease-in;
+}
+
+span:nth-child(6) {
+
+    animation: color_change 1s infinite;
+    animation-delay: 0.25s;
+    animation-timing-function: ease-in;
+}
+
+span:nth-child(5) {
+
+    animation: color_change 1s infinite;
+    animation-delay: 0.375s;
+    animation-timing-function: ease-in;
+}
+
+span:nth-child(4) {
+    animation: color_change 1s infinite;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+span:nth-child(3) {
+    animation: color_change 1s infinite;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+span:nth-child(2) {
+    animation: color_change 1s infinite;
+    animation-delay: 0.625s;
+    animation-timing-function: ease-in;
+}
+
+span:nth-child(1) {
+    animation: color_change 1s infinite;
+    animation-delay: 0.75s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes color_change {
+    from {
+        color: yellow
+    }
+
+    to {
+        color: white;
+    }
+
+}
